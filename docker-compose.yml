@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  db:
+    image: 'postgres:latest'
+    environment:
+      POSTGRES_PASSWORD: senha123
+      POSTGRES_USER: dev
+      POSTGRES_DB: exemplo-generic-dao
+    ports:
+      - '5432:5432'

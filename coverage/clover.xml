@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1667958520245" clover="3.2.0">
+  <project timestamp="1667958520245" name="All files">
+    <metrics statements="127" coveredstatements="121" conditionals="14" coveredconditionals="9" methods="27" coveredmethods="25" elements="168" coveredelements="155" complexity="0" loc="127" ncloc="127" packages="5" files="11" classes="11"/>
+    <package name="config">
+      <metrics statements="22" coveredstatements="18" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="4"/>
+      <file name="db.ts" path="/home/ifms/Documentos/LP/exemplo-dao-generico/src/config/db.ts">
+        <metrics statements="22" coveredstatements="18" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="4"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="42" count="3" type="stmt"/>
+        <line num="56" count="3" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="62" count="3" type="stmt"/>
+        <line num="63" count="3" type="stmt"/>
+        <line num="67" count="11" type="stmt"/>
+        <line num="68" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="72" count="11" type="stmt"/>
+        <line num="75" count="3" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="controllers">
+      <metrics statements="39" coveredstatements="37" conditionals="8" coveredconditionals="5" methods="3" coveredmethods="3"/>
+      <file name="Beneficiario.ts" path="/home/ifms/Documentos/LP/exemplo-dao-generico/src/controllers/Beneficiario.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+      <file name="Consulta.ts" path="/home/ifms/Documentos/LP/exemplo-dao-generico/src/controllers/Consulta.ts">
+        <metrics statements="15" coveredstatements="14" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="15" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="21" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+      </file>
+      <file name="Exame.ts" path="/home/ifms/Documentos/LP/exemplo-dao-generico/src/controllers/Exame.ts">
+        <metrics statements="15" coveredstatements="14" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="15" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="21" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="models.dao">
+      <metrics statements="25" coveredstatements="25" conditionals="4" coveredconditionals="2" methods="10" coveredmethods="10"/>
+      <file name="GenericDAO.ts" path="/home/ifms/Documentos/LP/exemplo-dao-generico/src/models/dao/GenericDAO.ts">
+        <metrics statements="25" coveredstatements="25" conditionals="4" coveredconditionals="2" methods="10" coveredmethods="10"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="9" count="11" type="stmt"/>
+        <line num="10" count="11" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="14" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="24" count="6" type="stmt"/>
+        <line num="25" count="6" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="30" count="149" type="stmt"/>
+        <line num="31" count="149" type="stmt"/>
+        <line num="32" count="149" type="stmt"/>
+        <line num="35" count="6" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="48" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="52" count="6" type="stmt"/>
+        <line num="56" count="3" type="stmt"/>
+        <line num="57" count="14" type="stmt"/>
+        <line num="58" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="models.entities">
+      <metrics statements="24" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="Beneficiario.ts" path="/home/ifms/Documentos/LP/exemplo-dao-generico/src/models/entities/Beneficiario.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="11" count="154" type="stmt"/>
+        <line num="12" count="154" type="stmt"/>
+        <line num="13" count="154" type="stmt"/>
+        <line num="14" count="154" type="stmt"/>
+        <line num="15" count="154" type="stmt"/>
+        <line num="16" count="154" type="stmt"/>
+      </file>
+      <file name="Consulta.ts" path="/home/ifms/Documentos/LP/exemplo-dao-generico/src/models/entities/Consulta.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+      </file>
+      <file name="Entity.ts" path="/home/ifms/Documentos/LP/exemplo-dao-generico/src/models/entities/Entity.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+      </file>
+      <file name="Exame.ts" path="/home/ifms/Documentos/LP/exemplo-dao-generico/src/models/entities/Exame.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+      <file name="beneficiario.ts" path="/home/ifms/Documentos/LP/exemplo-dao-generico/src/utils/beneficiario.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+      </file>
+      <file name="data.ts" path="/home/ifms/Documentos/LP/exemplo-dao-generico/src/utils/data.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
